@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class StatsServiceTest {
 
-    @ParameterizedTest
+    @Test
     
     void shouldSumSales() {
         int[] salesStatistics = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
